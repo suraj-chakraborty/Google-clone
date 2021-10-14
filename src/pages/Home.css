@@ -1,0 +1,82 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.home .homeheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80%;
+    align-items: center;
+
+}
+.homeheader a{
+    margin-right: 20px;
+    text-decoration: double;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.homeheader a:hover {
+    text-decoration: underline;
+}
+
+.headerRight {
+    top: 0;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+.headerRight > .MuiSvgIcon-root {
+    margin-right: 30px;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+
+.homeBody {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+
+}
+
+.homeBody > img {
+    object-fit: contain;
+    height: 100px;
+}
+
+.footer{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #f2f2f2;
+
+}
+
+.footerLeft {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px; 
+    
+}
+.footerLeft a, .footerRight a{
+    padding: 15px 30px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+}
+
+.Mfooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    align-items: center;
+    background-color: #f2f2f2;
+}
